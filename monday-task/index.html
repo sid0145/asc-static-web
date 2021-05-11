@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Task 1 | Moday</title>
+		<link rel="stylesheet" href="./style.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="navbar">
+				<a href="#home" class="active">Home</a>
+				<a href="#contact" class="active">ContactUs</a>
+				<a href="#login">Login</a>
+				<a href="#register">Register With Us</a>
+			</div>
+		</div>
+		<!--   home goes here -->
+		<div class="content">
+			<div class="home" id="home">
+				<div class="home_content">
+					<h1>
+						Accelerate your digital <br />
+						transformation journey with <br />
+						trusted expertise
+					</h1>
+					<p>
+						Streamline, simplify & automate your digital transformation journey
+						for greater revenue, productivity and customer satisfaction.
+					</p>
+					<button onclick="alert('under maintennace')">
+						Talk To An Expert
+					</button>
+				</div>
+			</div>
+			<div class="contact" id="contact">
+				<div class="contact_content">
+					<h1>Contact Us</h1>
+					<p>
+						<span><i class="fa fa-map-marker"></i></span> 5460 McGinnis Village
+						<br />
+						Pl Suite #102, <br />
+						Alpharetta, GA 30005, USA
+					</p>
+					<p><span class="fa fa-phone"></span> +1 (770) 462-2070</p>
+					<p><span class="fa fa-envelope"></span> info@advancesolutions.com</p>
+				</div>
+			</div>
+			<div class="login" id="login">
+				<h1>Login Here</h1>
+				<form
+					onsubmit="return formLoginValidation()"
+					name="loginForm"
+					autocomplete="off"
+					class="loginForm"
+				>
+					<table>
+						<tr>
+							<td><label for="email">Email:</label></td>
+							<td><input type="text" name="email" /></td>
+							<td>
+								<span class="errorMessage" id="loginEmailError"></span>
+							</td>
+						</tr>
+
+						<tr>
+							<td><label for="password">Password:</label></td>
+							<td><input type="password" name="password" /></td>
+							<td>
+								<span class="errorMessage" id="loginPasswordError"></span>
+							</td>
+						</tr>
+					</table>
+					<input type="submit" value="Submit" class="loginButton" />
+				</form>
+			</div>
+			<div class="register" id="register">
+				<h1>Register Here</h1>
+				<form
+					onsubmit="return formRegistrationValidation()"
+					name="registerForm"
+					autocomplete="off"
+					class="registerForm"
+				>
+					<table>
+						<tr>
+							<td><label for="firstName">First Name:</label></td>
+							<td><input type="text" name="firstName" /></td>
+							<td>
+								<span class="errorMessage" id="firstNameError"></span>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="lastName">Last Name:</label></td>
+							<td><input type="text" name="lastName" /></td>
+							<td>
+								<span class="errorMessage" id="lastNameError"></span>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="email">Email:</label></td>
+							<td><input type="text" name="email" /></td>
+							<td>
+								<span class="errorMessage" id="emailError"></span>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="userId">User Id:</label></td>
+							<td><input type="text" name="userId" /></td>
+							<td>
+								<span class="errorMessage" id="userIdError"></span>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="password">Password:</label></td>
+							<td><input type="password" name="password" /></td>
+							<td>
+								<span class="errorMessage" id="passwordError"></span>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="conPassword">Confirm Password:</label></td>
+							<td><input type="password" name="conPassword" /></td>
+							<td>
+								<span class="errorMessage" id="conPasswordError"></span>
+							</td>
+						</tr>
+					</table>
+					<input type="submit" value="Create" class="button" />
+					<span id="correct" class="correct"></span>
+				</form>
+			</div>
+		</div>
+		<div class="footer">
+			<i>Designed By Siddhesh</i>
+		</div>
+
+		<script src="./index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Epilogue", sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+.container {
+	background-color: antiquewhite;
+	top: 0;
+}
+/* navbar styling */
+.navbar {
+	background-color: #3e0049;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/* box-shadow: 1px 2px 1px #c0b6b6; */
+	border-bottom: 1px solid #fff;
+}
+
+a {
+	text-decoration: none;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+}
+a:hover {
+	text-decoration: underline;
+	/* background-color: red; */
+	color: green;
+	/* border: 5px; */
+}
+.content {
+	background-color: beige;
+}
+/* home styles start here */
+
+.home {
+	height: 85vh;
+	background-color: #3e0049;
+	/* margin-bottom: 40px; */
+}
+.home_content {
+	max-width: 700px;
+	margin-left: 60px;
+	padding-top: 90px;
+}
+.home_content h1 {
+	font-size: 45px;
+	font-weight: 600;
+	line-height: 65px;
+	color: white;
+}
+.home_content p {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	/* font-weight: 200; */
+
+	/* line-height: 65px; */
+	color: white;
+}
+.home_content button {
+	margin-top: 30px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 28px;
+	padding: 15px 20px;
+	background-color: red;
+	border: none;
+	color: #fff;
+}
+.home_content button:hover {
+	background-color: transparent;
+	border: 1px solid #000;
+	cursor: pointer;
+}
+
+/* *********contact us starts here **/
+.contact {
+	height: 600px;
+	padding-top: 40px;
+	background-color: aquamarine;
+}
+.contact_content {
+	max-width: 600px;
+	margin: auto;
+}
+.contact_content h1 {
+	margin-top: 30px;
+	text-align: center;
+	padding: 20px 10px;
+	font-size: 30px;
+}
+.contact_content p {
+	font-size: 15px;
+	font-weight: 200;
+	text-align: center;
+}
+/***********login style start here*/
+.login {
+	max-width: 700px;
+	margin: auto;
+	height: 600px;
+	padding-top: 60px;
+}
+.loginForm {
+	margin-left: 120px;
+}
+.login h1 {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+/* table styling */
+table {
+	/* border: 1px solid #000; */
+	margin-left: 60px;
+}
+table tr {
+	margin: 5px;
+}
+input {
+	padding: 8px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+
+/* register styleing */
+.register {
+	/* height: 60vh; */
+	height: 500px;
+	max-width: 850px;
+	margin: auto;
+	/* margin-bottom: 80px; */
+	background-color: bisque;
+}
+.register h1 {
+	padding: 60px 0px 40px 0px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.registerForm {
+	margin-left: 120px;
+}
+.errorMessage {
+	color: red;
+	margin-left: 10px;
+}
+.loginButton {
+	/* background-color: #3e0049;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 60px;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 10px; */
+	background-color: #3e0049;
+	color: #fff;
+	margin-top: 40px;
+	margin-left: 200px;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 10px;
+}
+.button {
+	background-color: #3e0049;
+	color: #fff;
+	margin-top: 40px;
+	margin-left: 200px;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 10px;
+}
+.correct {
+	margin-left: 40px;
+	color: green;
+}
+.footer {
+	background-color: #843492;
+	padding: 20px 10px;
+	text-align: center;
+}
